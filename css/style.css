@@ -1,0 +1,122 @@
+* {
+   margin:0px;
+   padding:0px;
+   }
+h2 {
+    text-align:center;
+	margin:20px;
+	padding:20px;
+}
+.property ul {
+	 padding:20px;
+}
+.color h1 {
+	background-color:lightblue;
+}
+.image {
+	background-image:url("../sampleimage/box 3.png");
+	width:100vw;
+	height:40vh;
+	background-repeat:no-repeat;
+}
+.repeat {
+	 background-image:url("../sampleimage/box 3.png");
+	width:100vw;
+	height:40vh;
+	
+}
+.no-repeat {
+	background-image:url("../sampleimage/box 3.png");
+	width:100vw;
+	height:40vh;
+	background-repeat:no-repeat;
+}
+.position {
+	background-image:url("../sampleimage/card 1.jpg");
+	width:100vw;
+	height:500px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.attach  {
+	background-image:url("../sampleimage/card 1.jpg");
+	width:100vw;
+	height:500px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.origin {
+	border:5px dashed green;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-origin:border-box;
+	background-attachment:scroll;
+}
+.origin_1 {
+	border:5px dashed green;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-origin:content-box;
+	background-attachment:scroll;
+}
+.origin_2 {
+	border:5px dashed green;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-origin:padding-box;
+	background-attachment:scroll;
+}
+.clip {
+	border:5px dashed black;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-clip:content-box;
+	background-attachment:scroll;
+}
+.clip_1 {
+	border:5px dashed black;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-clip:border-box;
+	background-attachment:scroll;
+}
+.clip_2 {
+	border:5px dashed black;
+	background-image:url("../sampleimage/card 1.jpg");
+	width:50vw;
+	height:200px;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-clip:padding-box;
+	background-attachment:scroll;
+}
+.size {
+  border: 2px solid black;
+  padding: 25px;
+  background:url("../sampleimage/card 1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+.back {
+	background:center url("../sampleimage/card 1.jpg") no-repeat pink;
+	width:100vw;
+	height:500px;
+}
+	
